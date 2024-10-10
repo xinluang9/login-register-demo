@@ -26,7 +26,7 @@ const LoginForm = ({ onLogin, onRegister }) => {
       >
         <Input
           prefix={<UserOutlined className="site-form-item-icon" />}
-          placeholder="用户名"
+          placeholder="用户名:admin"
         />
       </Form.Item>
       <Form.Item
@@ -35,7 +35,7 @@ const LoginForm = ({ onLogin, onRegister }) => {
       >
         <Input.Password
           prefix={<LockOutlined className="site-form-item-icon" />}
-          placeholder="密码"
+          placeholder="密码:111111"
         />
       </Form.Item>
       <Form.Item>
